@@ -26,6 +26,10 @@ button.btn.btn-block:hover, ul.nav li button:hover {
   font-weight: 300;
 }
 
+ul.card-list {
+  padding-left: 0;
+}
+
 .card-list li {
   list-style: none;
   font-size: 1.1em;
