@@ -6,9 +6,12 @@ const TextCardList = (props) => {
   const { store } = props;
   const state = store.getState()
 
+  let cards = state.cards;
+  cards.reverse();
+
   return (
     <ul className='card-list'>
-      {state.cards.map((textCard, i) =>
+      {cards.map((textCard, i) =>
         <TextCard
           store={store}
           index={i}

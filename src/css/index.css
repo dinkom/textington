@@ -1,5 +1,6 @@
 body {
   font-weight: 300;
+  background: #eee;
 }
 
 button:focus, button.btn.btn-block:focus {
@@ -12,7 +13,7 @@ button.btn.btn-block:hover, ul.nav li button:hover {
 }
 
 .default-back, .default-back button {
-  background: #dd4444;
+  background: #dd4464;
   border: none;
   border-radius: 0;
   color: #f2f2f2;
